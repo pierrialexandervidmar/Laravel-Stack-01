@@ -1,5 +1,5 @@
 
-# 🚀 Nome do Projeto
+# 🚀 Projeto exemplo da TALL Stack
 
 [![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com/)
 [![Livewire](https://img.shields.io/badge/Livewire-4B5563?style=for-the-badge&logo=livewire&logoColor=white)](https://livewire.laravel.com/)
