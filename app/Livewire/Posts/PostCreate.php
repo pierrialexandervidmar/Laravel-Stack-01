@@ -14,6 +14,7 @@ class PostCreate extends Component
     public function savePost()
     {
         $this->form->store();
+        session()->flash('success', 'Post criado com sucesso.');
         return redirect()->to(route('posts.index'));
     }
 

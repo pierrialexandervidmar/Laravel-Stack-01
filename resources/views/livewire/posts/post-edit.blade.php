@@ -1,6 +1,6 @@
 <section>
 
-    <form wire:submit="editPost" class="max-w-md mx-auto flex flex-col gap-6 bg-slate-900 shadow-2xl rounded-2xl p-4">
+    <form wire:submit="updatePost" class="max-w-md mx-auto flex flex-col gap-6 bg-slate-900 shadow-2xl rounded-2xl p-4">
         
         {{-- Title --}}
         <flux:input wire:model="form.title" label="title" type="text" autofocus autocomplete="email"
