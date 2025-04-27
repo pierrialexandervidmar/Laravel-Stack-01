@@ -4,7 +4,6 @@ namespace App\Livewire\Forms\Posts;
 
 use App\Models\Post;
 use Illuminate\Support\Facades\Storage;
-use Livewire\Attributes\Validate;
 use Livewire\Form;
 
 /**
@@ -38,7 +37,7 @@ class PostForm extends Form
     /**
      * Atribui um post existente ao formulário para edição.
      *
-     * @param Post $post Instância do post a ser editado.
+     * @param  Post  $post  Instância do post a ser editado.
      * @return void
      */
     public function setPost(Post $post)
@@ -134,4 +133,3 @@ class PostForm extends Form
         $this->reset();
     }
 }
-

@@ -22,10 +22,10 @@ class PostEdit extends Component
     {
         $this->form->update();
         session()->flash('success', 'Post atualizado com sucesso.');
+
         return redirect()->to(route('posts.index'));
     }
 
-    
     public function render()
     {
         return view('livewire.posts.post-edit');

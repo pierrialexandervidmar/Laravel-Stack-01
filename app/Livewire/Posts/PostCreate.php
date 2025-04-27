@@ -9,12 +9,14 @@ use Livewire\WithFileUploads;
 class PostCreate extends Component
 {
     use WithFileUploads;
+
     public PostForm $form;
-    
+
     public function savePost()
     {
         $this->form->store();
         session()->flash('success', 'Post criado com sucesso.');
+
         return redirect()->to(route('posts.index'));
     }
 

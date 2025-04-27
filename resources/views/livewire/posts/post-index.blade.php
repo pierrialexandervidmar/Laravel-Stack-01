@@ -39,6 +39,7 @@
                         <td class="px-6 py-4">
                             <a href="{{ route('posts.edit', $post->id) }}"
                                 class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
+                            <button wire:click="deletePost({{ $post->id }})" wire:confirm="Tem certeza que quer excluir?" class="font-medium text-red-600 dark:text-red-500 hover:underline">Delete</button>
                         </td>
                     </tr>
                 @empty
